@@ -1,0 +1,8 @@
+sass --watch /Users/ashrafuloli/www/wordpress-theme/wp-content/themes/byteq/assets/scss/main.scss:/Users/ashrafuloli/www/wordpress-theme/wp-content/themes/byteq/assets/css/main.css
+
+
+
+
+sass --watch /Users/ashrafuloli/www/byteq/wp-content/themes/byteq/assets/scss/main.scss:/Users/ashrafuloli/www/byteq/wp-content/themes/byteq/assets/css/main.css
+
+

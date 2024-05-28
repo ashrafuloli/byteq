@@ -1,0 +1,76 @@
+@use "common"as *;
+
+.header-area {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.logo {
+	img {
+		max-width: 130px;
+	}
+}
+
+.header-btn {
+	a {
+		display: inline-block;
+		padding: 16px 32px;
+		font-weight: 600;
+		font-size: 14px;
+		line-height: 18px;
+		letter-spacing: 0.015em;
+		text-transform: uppercase;
+		color: #0176D3;
+		border: 1px solid #0176D3;
+		border-radius: 4px;
+
+		i {
+			margin-left: 10px;
+		}
+	}
+}
+
+.main-menu {
+	ul {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+
+		li {
+			display: inline-block;
+			margin-right: 32px;
+
+			@include mq(xl) {
+				margin-right: 20px;
+			}
+
+			a {
+				display: block;
+				font-weight: 400;
+				font-size: 18px;
+				line-height: 125%;
+				letter-spacing: 0.005em;
+				color: #2B3C4E;
+				&:hover{
+					color: $theme-color;
+				}
+			}
+		}
+	}
+}
+
+.menu-bar {
+	margin-left: 15px;
+
+	a {
+		display: inline-block;
+		font-size: 20px;
+		padding: 14px 15px;
+		border: 1px solid $theme-color;
+		border-radius: 4px;
+		&:hover{
+			color: #fff;
+			background: $theme-color;
+		}
+	}
+}

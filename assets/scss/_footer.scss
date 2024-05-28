@@ -1,0 +1,135 @@
+@use "common" as *;
+
+.footer-area {
+  background: #E5F4FF;
+}
+
+.footer-about {
+  max-width: 280px;
+  @include mq(md){
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .f-logo {
+    margin-bottom: 16px;
+
+    img {
+      max-width: 130px;
+    }
+  }
+
+  .text {
+    p {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 125%;
+      letter-spacing: 0.0015em;
+      color: #223B45;
+      margin-bottom: 24px;
+    }
+  }
+
+  h4 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 125%;
+    letter-spacing: 0.0015em;
+    color: #2B3C4E;
+    margin-bottom: 16px;
+  }
+
+  a {
+    font-family: $Montserrat;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 125%;
+    letter-spacing: 0.0015em;
+    color: #0176D3;
+
+    i {
+      margin-right: 10px;
+    }
+  }
+}
+
+.footer-menu {
+  h3 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 125%;
+    letter-spacing: 0.0015em;
+    color: #2B3C4E;
+    margin-bottom: 24px;
+  }
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    li {
+      display: block;
+      margin-bottom: 16px;
+
+      a {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 125%;
+        letter-spacing: 0.005em;
+        color: #2B3C4E;
+
+        &:hover {
+          color: $theme-color;
+        }
+      }
+    }
+  }
+}
+
+
+.footer-social {
+  h3 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 125%;
+    letter-spacing: 0.0015em;
+    color: #2B3C4E;
+    margin-bottom: 24px;
+  }
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    li {
+      display: block;
+      margin-bottom: 16px;
+
+      a {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 125%;
+        letter-spacing: 0.005em;
+        color: #2B3C4E;
+
+        i {
+          width: 24px;
+          height: 24px;
+          line-height: 24px;
+          background: #0176D3;
+          color: #fff;
+          text-align: center;
+          border-radius: 50%;
+          margin-right: 8px;
+          font-size: 12px;
+        }
+
+        &:hover {
+          color: $theme-color;
+        }
+      }
+    }
+  }
+}
