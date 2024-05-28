@@ -27,6 +27,11 @@
 		i {
 			margin-left: 10px;
 		}
+
+		&:hover{
+			background: $theme-color;
+			color: #fff;
+		}
 	}
 }
 
@@ -72,5 +77,20 @@
 			color: #fff;
 			background: $theme-color;
 		}
+	}
+}
+
+
+header.header-area.sticky-header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 999;
+	padding-top: 5px;
+	padding-bottom: 5px;
+
+	.header-btn a{
+		padding: 12px 32px;
 	}
 }
